@@ -36,8 +36,7 @@ public class Program {
 		
 		System.out.print("How many items to this order? ");
 		int a = sc.nextInt();
-		
-		
+				
 		for(int n=1; n <= a; n++) {
 			sc.nextLine();
 			System.out.println("Enter #" + n + " item data:");
@@ -53,11 +52,7 @@ public class Program {
 			order.addOrderItem(orderItem);		
 		}
 		
-		System.out.println(order);
-		
-		
-		
-		
+		System.out.println(order);		
 		sc.close();
 	}
 
